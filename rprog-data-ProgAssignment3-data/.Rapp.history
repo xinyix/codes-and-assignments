@@ -1,0 +1,89 @@
+install.package("KernSmooth")
+install.packages("KernSmooth")
+library()
+KernSmooth()
+/var/folders/2v/nq5rn07d1jgfc8dyv7p5pd7c0000gn/T//Rtmp5Lbqhj/downloaded_packages
+library(KernSmooth)
+search()
+exit
+x <- c("a", "b", "c", "d")
+for(i in 1:4){}
+for(i in 1:4){print}
+for(i in 1:4){print x[i]}
+for(i in 1:4) {print(x[i])}
+seq_along(x)
+for(seq_along(x)){print(x[i])}
+for(i in seq_along(x)){print(x[i])}
+for(letter in x){print(letter)}
+for(i in 1:4) print(x[i])
+x <- matrix(1:6, 2, 3)
+for(i in seq_len(nrow(x))) {           for(j in seq_len(ncol(x))){               print(x[i,j])           }   }
+for(i in seq_len(nrow(x))) {           for(j in seq_len(ncol(x))) {               print(x[i, j])           }   }
+for(i in seq_len(nrow(x))) {for(j in seq_len(ncol(x))) {print(x[i, j])} }
+library(datasets)#
+data(iris)
+iris
+apply(iris[$Sepal.Length, $virginica], 2. mean)
+apply(iris[Sepal.Length, virginica], 2. mean)
+subset(iris, select = c(Sepal.Length, virginica))
+subset(iris, select = c(Sepal.Length, 101:!50))
+subset(iris, select = c(Sepal.Length, 101:150))
+subset(iris, Species == virginica)
+subset(iris, $virginica)
+subset(iris, 101:150)
+subset(iris, select = Sepal.Length)
+x <- subset(iris, select = Sepal.Length)
+x[101:150,]
+want <- x[101:150]
+want <- x[101:150,]
+mean(want)
+iris
+library(datasets)#
+data(mtcars)
+mtcars
+subset(mtcars, cyl=4)
+mtcars[mtcars$cyl==4]
+mtcars[mtcars$cyl==4,]
+4cyl <- mtcars[mtcars$cyl==4,]
+cylf <- mtcars[mtcars$cyl==4,]
+cylf[hp,]
+cylf[cylf$hp]
+cylf
+subset(cylf, select = "hp")
+cylfhp <- subset(cylf, select = "hp")
+mean(cylfhp)
+sapply(cylfhp, mean)
+subset(mtcars, cyl=4)
+mtcars[mtcars$cyl==8,]
+cyle <- mtcars[mtcars$cyl==8,]
+cyle[cyle$hp,]
+subset(cyle, select = "hp")
+cylehp <- subset(cyle, select = "hp")
+sapply(cylehp, mean)
+sapply(cylehp, mean) - sapply(cylfhp, mean)
+debug(ls)
+ls
+ls()
+mtcars
+?gl
+gl(2, 8, labels = c("Control", "Treat"))
+set.seed(1)#
+rpois(5, 2)
+library(datasets)#
+Rprof()#
+fit <- lm(y ~ x1 + x2)#
+Rprof(NULL)
+library(datasets)#
+Rprof()#
+fit <- lm(y ~ x1 + x2)#
+Rprof(NULL)
+y <- [1:5]
+y <- c(1:5)
+x <- c(6:10)
+x1 <- c(6:10)
+x2 <- c(11:15)
+Rprof(NULL)#
+> library(datasets)#
+> Rprof()#
+> fit <- lm(y ~ x1 + x2)
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript3.R")
